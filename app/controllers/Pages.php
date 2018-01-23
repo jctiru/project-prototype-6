@@ -13,7 +13,7 @@
 
 		public function about(){
 			$data = ['title'=> 'About US'];
-			$this->view('pages/about');
+			$this->view('pages/about', $data);
 		}
 	}
  ?>
